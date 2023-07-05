@@ -1,4 +1,4 @@
-
+# portfolio-react-app
 
 ```markdown
 # My Portfolio
@@ -10,7 +10,7 @@ This is a portfolio website built using React and Tailwind CSS. It showcases my 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/khulyso-dev/portfolio.git
 ```
 
 2. Install the dependencies:
@@ -50,6 +50,8 @@ npm start
 ## Dependencies
 
 - React: A JavaScript library for building user interfaces.
+- React icons:
+- React smooth scroll:
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom designs.
 
 ## Customization
@@ -66,7 +68,7 @@ To customize the portfolio with your own content, you can modify the following f
 ## Credits
 
 - This portfolio was built using React and Tailwind CSS.
-- The design and implementation were done by [Your Name].
+- The design and implementation were done by [Khuliso John].
 
 ## License
 
