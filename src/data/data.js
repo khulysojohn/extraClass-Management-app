@@ -1,18 +1,18 @@
 import WorkIm from '../assets/library.png'
-import RealEst from '../assets/library.png'
+import System from '../assets/system.png'
 
 export const data=[
     {
         id:1,
-        name:"React JS Application",
-        image:WorkIm,
+        name:"Management System",
+        image:System,
         github:"",
         live:"",
     },
     {
         id:2,
         name:"React JS Application",
-        image:RealEst,
+        image:WorkIm,
         github:"",
         live:"",
     },
@@ -26,7 +26,7 @@ export const data=[
     {
         id:4,
         name:"React JS Application",
-        image:RealEst,
+        image:WorkIm,
         github:"",
         live:"",
     },
@@ -40,7 +40,7 @@ export const data=[
     {
         id:6,
         name:"React JS Application",
-        image:RealEst,
+        image:WorkIm,
         github:"",
         live:"",
     },
