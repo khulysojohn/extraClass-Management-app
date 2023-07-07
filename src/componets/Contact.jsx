@@ -19,17 +19,17 @@ const Contact = () => {
       <div className='lg:hidden'>
         <ul className='flex'>
           <li>
-            <a href='/'>
+            <a href='https://www.linkedin.com/in/khulysojohn/'>
               <FaLinkedinIn size={40} />
             </a>
           </li>
           <li>
-            <a href='/'>
+            <a href='https://github.com/khulyso-dev'>
               <FaGithub size={40} />
             </a>
           </li>
           <li>
-            <a href='/'>
+            <a href='https://twitter.com/Khulyso12'>
               <FaTwitter size={40} />
             </a>
           </li>

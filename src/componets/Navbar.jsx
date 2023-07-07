@@ -46,19 +46,19 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="/">
+            href="https://www.linkedin.com/in/khulysojohn/">
               Linkedin <FaLinkedinIn size={30} color='white' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="/">
+            href="https://github.com/khulyso-dev">
               Github <FaGithub size={30} color='white' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="/">
+            href="https://twitter.com/Khulyso12">
               Twitter <FaTwitter size={30} color='white'/>
             </a>
           </li>
