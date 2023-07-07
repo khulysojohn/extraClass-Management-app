@@ -3,7 +3,7 @@ import HTML from '../assets/html5.jpg';
 import CSS from '../assets/css3.png';
 import JAVASCRIPT from '../assets/js.png';
 import REACT from '../assets/React.png';
-import SQL from '../assets/sql.png';
+import SQL from '../assets/sql2.jpg';
 import NODE from '../assets/node.png'
 import TAILWIND from '../assets/tailwind.jpg';
 import GIT from '../assets/git.png';
