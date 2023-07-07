@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa'
 
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#1E2D40] flex justify-center items-center pt-8'>
+    <div name='contact' className='w-full h-screen bg-[#1E2D40] flex justify-center items-center pt-24'>
       <div className='flex flex-col w-full justify-center items-center bg-[#1E2D40] pb-6 px-4'>
       <form method='POST' action="" className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>

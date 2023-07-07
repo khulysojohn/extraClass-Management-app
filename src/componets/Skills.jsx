@@ -10,7 +10,7 @@ import GIT from '../assets/git.png';
 
 function Skills() {
   return (
-    <div name='skills' className='bg-[#1E2D40] text-gray-300 pb-24'>
+    <div name='skills' className='bg-[#1E2D40] text-gray-300 py-24'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>
                 <p className='text-4xl font-bold inline border-b-4 border-[#00FFC3]'>Skills</p>
