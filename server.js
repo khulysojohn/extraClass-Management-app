@@ -27,7 +27,7 @@ app.post('/submit', (req, res) => {
 
   // Configure email details
   const mailOptions = {
-    from: email,
+    from: Gmail,
     to: 'khulyso.dev@mail.com', // Replace with your email address where you want to receive the form submissions
     subject: 'New contact form submission',
     text: `Name: ${name}\nEmail: ${email}\n\n${message}`
