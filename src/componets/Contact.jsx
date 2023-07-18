@@ -1,39 +1,32 @@
-import React, { useState } from 'react';
+import React, {useRef} from 'react';
+import emailjs from '@emailjs/browser';
 import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+ 
+  const form = useRef();
 
-  const handleSubmit = async (e) => {
+  const sendEmail = (e) => {
     e.preventDefault();
 
-    try {
-      const response = await fetch('/submit', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({ name, email, message })
+    emailjs
+    .sendForm(
+      'service_kdq6e6a',
+       'template_6lrwrqh',
+        form.current, 'voB-NL4TSCv7fUDrM'
+        )
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
       });
-
-      if (response.ok) {
-        // Handle success
-        console.log('Email sent successfully');
-      } else {
-        // Handle error
-        console.error('Failed to send email');
-      }
-    } catch (error) {
-      console.error(error);
-    }
   };
+
 
   return (
     <div name='contact' className='w-full h-screen bg-[#1E2D40] flex justify-center items-center pt-24'>
       <div className='flex flex-col w-full justify-center items-center bg-[#1E2D40] pb-6 px-4'>
-        <form action='/submit' className='flex flex-col max-w-[600px] w-full'>
+        <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-[#00FFC3] text-gray-300'>Contact</p>
             <p className='text-gray-300 py-4'>Submit the form below to get in touch</p>
@@ -42,28 +35,23 @@ const Contact = () => {
             className='bg-[#ccd6f6] p-2'
             type='text'
             placeholder='Name'
-            name='name'
-            value={name}
-            onChange={(e) => setName(e.target.value)}
+            name='User_name'
           />
           <input
             className='my-4 p-2 bg-[#ccd6f6]'
             type='email'
             placeholder='Email'
-            name='email'
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
+            name='User_email'
           />
           <textarea
             className='bg-[#ccd6f6] p-2'
             name='message'
             rows='10'
             placeholder='Message'
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          ></textarea>
+          >
+          </textarea>
           <button
-            type='submit' onClick={handleSubmit}
+            type='submit' value="send"
             className='text-white border-2 hover:bg-[#00FFC3] hover:text-black hover:border-[#00FFC3] px-4 py-3 my-8 mx-auto flex items-center'
           >
             Let's Collaborate
