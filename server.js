@@ -1,16 +1,18 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
 
 // Create an Express app
 const app = express();
 
-// Use body-parser middleware to parse request bodies
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
 // Serve static files (CSS, JS, images, etc.) if needed
 app.use(express.static('public'));
+
+// Parse JSON-encoded request bodies
+app.use(express.json());
+
+// Parse URL-encoded request bodies
+app.use(express.urlencoded({ extended: false }));
 
 // Handle form submission
 app.post('/submit', (req, res) => {
