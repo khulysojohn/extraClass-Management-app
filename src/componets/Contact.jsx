@@ -17,6 +17,7 @@ const Contact = () => {
         )
       .then((result) => {
           console.log(result.text);
+          console.log("mesege sent")
       }, (error) => {
           console.log(error.text);
       });
@@ -35,27 +36,26 @@ const Contact = () => {
             className='bg-[#ccd6f6] p-2'
             type='text'
             placeholder='Name'
-            name='User_name'
+            name="User_name"
           />
           <input
             className='my-4 p-2 bg-[#ccd6f6]'
             type='email'
             placeholder='Email'
-            name='User_email'
+            name="User_email"
           />
           <textarea
             className='bg-[#ccd6f6] p-2'
-            name='message'
+            name="message"
             rows='10'
             placeholder='Message'
           >
           </textarea>
-          <button
+          <input
             type='submit' value="send"
             className='text-white border-2 hover:bg-[#00FFC3] hover:text-black hover:border-[#00FFC3] px-4 py-3 my-8 mx-auto flex items-center'
-          >
-            Let's Collaborate
-          </button>
+          />
+            
         </form>
 
         <div className='lg:hidden'>
