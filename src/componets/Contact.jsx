@@ -1,6 +1,6 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import { FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 const Contact = () => {
  
@@ -25,12 +25,12 @@ const Contact = () => {
 
 
   return (
-    <div name='contact' className='w-full h-screen bg-[#1E2D40] flex justify-center items-center pt-24'>
+    <div name='contact' className='w-full h-screen bg-[#1E2D40] flex justify-center items-center pt-64'>
       <div className='flex flex-col w-full justify-center items-center bg-[#1E2D40] pb-6 px-4'>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
           <div className='pb-8'>
             <p className='text-4xl font-bold inline border-b-4 border-[#00FFC3] text-gray-300'>Contact</p>
-            <p className='text-gray-300 py-4'>Submit the form below to get in touch</p>
+            <p className='text-gray-300 py-4'>Feel free to get in touch with the developer</p>
           </div>
           <input
             className='bg-[#ccd6f6] p-2'
@@ -52,8 +52,8 @@ const Contact = () => {
           >
           </textarea>
           <input
-            type='submit' value="send"
-            className='text-white border-2 hover:bg-[#00FFC3] hover:text-black hover:border-[#00FFC3] px-4 py-3 my-8 mx-auto flex items-center'
+            type='submit' value="Collaborate"
+            className='text-white border-2 hover:bg-[#00FFC3] hover:text-black hover:border-[#00FFC3] px-4 py-3 my-8 mx-auto flex items- '
           />
             
         </form>
@@ -66,13 +66,18 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a href='https://github.com/khulyso-dev'>
+              <a  href='https://github.com/khulyso-dev'>
                 <FaGithub size={40} />
               </a>
             </li>
             <li>
-              <a href='https://twitter.com/Khulyso12'>
+              <a  href='https://twitter.com/Khulyso12'>
                 <FaTwitter size={40} />
+              </a>
+            </li>
+            <li>
+              <a  href='https://twitter.com/Khulyso12'>
+                <FaFacebook size={40} />
               </a>
             </li>
           </ul>

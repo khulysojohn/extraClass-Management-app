@@ -22,11 +22,10 @@ import React from 'react'
                 <div>
                     <p>
                     I am a Full Stack Developer who is interested in Full Stack Developer roles.
-                     I am most comfortable working with React, JavaScript, Node.js, CSS/HTML, Express.js,
-                      Git and MySQL. I would love to work in an environment that will sharpen my skill of design 
+                     I would love to work in an environment that will sharpen my skill of design 
                       and knowledge of programming so that I will help the organisation reach its goal in time. 
                       I prefer co-workers that will allow me to express my opinion regarding the problem so that
-                       we contribute mentally toward the same problem to make it simple. I am seeking a fresh challenge
+                       we contribute mentally toward the same problem to make it simple.
                     </p>
                 </div>
             </div>

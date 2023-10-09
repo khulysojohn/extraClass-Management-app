@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaGithub, FaLinkedinIn, FaTimes, FaTwitter} from 'react-icons/fa'
+import {FaBars, FaFacebook, FaGithub, FaLinkedinIn, FaTimes, FaTwitter} from 'react-icons/fa'
 import logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
 
@@ -22,7 +22,7 @@ const Navbar = () => {
           <ul className='hidden md:flex'>
             <li>
               <Link  to='home' smooth={true} duration={500}>
-                home
+                Home
               </Link>
               </li>
             <li>
@@ -101,6 +101,12 @@ const Navbar = () => {
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
             href="https://twitter.com/Khulyso12">
               Twitter <FaTwitter size={30} color='white'/>
+            </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-800'>
+            <a className='flex justify-between items-center w-full text-[#0BDFAE]'
+            href="https://twitter.com/Khulyso12">
+              Facebook <FaFacebook size={30} color='white'/>
             </a>
           </li>
         </ul>
