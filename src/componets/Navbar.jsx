@@ -105,7 +105,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-800'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="https://twitter.com/Khulyso12">
+            href="https://www.facebook.com/Khulyso12">
               Facebook <FaFacebook size={30} color='white'/>
             </a>
           </li>

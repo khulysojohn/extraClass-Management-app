@@ -76,7 +76,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a  href='https://twitter.com/Khulyso12'>
+              <a  href='https://www.facebook.com/Khulyso12'>
                 <FaFacebook size={40} />
               </a>
             </li>
