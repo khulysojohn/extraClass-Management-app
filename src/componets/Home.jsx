@@ -15,8 +15,8 @@ const Home = () => {
           exceptional digital experiences. Currently, I'm focused on builing responsive 
           full-stack web applications.
         </p>
-        <div >
-          <button className='text-[#1E2D40] group border-2 px-6 py-3 my-2 flex items-center bg-[#0BDFAE] hover:border-[#0BDFAE]'>
+        <div>
+          <button className='w-2xs text-[#1E2D40] group border-2 px-6 py-3 my-2 flex items-center bg-[#0BDFAE] hover:border-[#0BDFAE]'>
             Resume
             <span className='group-hover:rotate-90 duration-300'>
               <HiArrowNarrowRight className='ml-3'/>
