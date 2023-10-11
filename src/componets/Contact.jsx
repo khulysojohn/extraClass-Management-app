@@ -17,9 +17,11 @@ const Contact = () => {
         )
       .then((result) => {
           console.log(result.text);
-          console.log("mesege sent")
-      }, (error) => {
+          alert("mesege sent");
+          form.current.reset();
+        }, (error) => {
           console.log(error.text);
+          alert("message not sent");
       });
   };
 
