@@ -8,7 +8,7 @@ import NODE from '../assets/node.png'
 import TAILWIND from '../assets/tailwind.jpg';
 import GIT from '../assets/git.png';
 
-function Skills() {
+const Skills = () => {
   return (
     <div name='skills' className='bg-[#1E2D40] text-gray-300'>
         <div className='py-20 mx-auto flex flex-col justify-center items-center w-full h-full'>
