@@ -1,6 +1,8 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import { FaFacebook, FaGithub, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+import { FaSkype, FaGithub, FaLinkedinIn} from 'react-icons/fa';
+import icon from '../assets/logo-white.png';
+
 
 const Contact = () => {
  
@@ -64,22 +66,22 @@ const Contact = () => {
           <ul className='flex'>
             <li>
               <a href='https://www.linkedin.com/in/khulysojohn/'>
-                <FaLinkedinIn size={40} />
+                <FaLinkedinIn size={40} color='white'/>
               </a>
             </li>
             <li>
               <a  href='https://github.com/khulyso-dev'>
-                <FaGithub size={40} />
+                <FaGithub size={40} color='white'/>
               </a>
             </li>
             <li>
               <a  href='https://twitter.com/Khulyso12'>
-                <FaTwitter size={40} />
+                <img src={icon} alt='x' width={30} height={30}/>
               </a>
             </li>
             <li>
               <a  href='https://www.facebook.com/Khulyso12'>
-                <FaFacebook size={40} />
+                <FaSkype size={40} color='white'/>
               </a>
             </li>
           </ul>
