@@ -88,8 +88,8 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="t.me/khuljohn">
-              Linkedin <FaTelegram size={30} color='white' />
+            href="https://t.me/khuljohn">
+              Telegram <FaTelegram size={30} color='white' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
@@ -106,7 +106,7 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-800'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="https://join.skype.com/invite/anCZ9LffcFSD">
+            href="https://join.skype.com/invite/AnCZ9LffcFSD">
               Skype <FaSkype size={30} color='white'/>
             </a>
           </li>

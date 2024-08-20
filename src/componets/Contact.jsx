@@ -80,7 +80,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a  href='https://join.skype.com/invite/anCZ9LffcFSD'>
+              <a  href='https://join.skype.com/invite/AnCZ9LffcFSD'>
                 <FaSkype size={40} color='white'/>
               </a>
             </li>
