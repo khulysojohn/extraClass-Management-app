@@ -65,7 +65,7 @@ const Contact = () => {
         <div className='lg:hidden'>
           <ul className='flex'>
             <li>
-              <a href='https://www.linkedin.com/in/khulysojohn/'>
+              <a href='t.me/khuljohn'>
                 <FaTelegram size={40} color='white'/>
               </a>
             </li>
@@ -80,7 +80,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a  href='https://www.facebook.com/Khulyso12'>
+              <a  href='https://join.skype.com/invite/anCZ9LffcFSD'>
                 <FaSkype size={40} color='white'/>
               </a>
             </li>
