@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaSkype, FaGithub, FaTimes, FaTelegram} from 'react-icons/fa'
+import {FaBars, FaGithub, FaTimes, FaTelegram, FaLinkedin} from 'react-icons/fa'
 import logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
 import icon from '../assets/logo-white.png'
@@ -106,8 +106,8 @@ const Navbar = () => {
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-800'>
             <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="https://join.skype.com/invite/AnCZ9LffcFSD">
-              Skype <FaSkype size={30} color='white'/>
+            href="https://www.linkedin.com/in/khulyso/">
+              Linkedin <FaLinkedin size={30} color='white'/>
             </a>
           </li>
         </ul>
