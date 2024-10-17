@@ -1,7 +1,8 @@
 import WorkIm from '../assets/library.png'
 import System from '../assets/system.png'
 import calculator from '../assets/calculator.jpg'
-import color from '../assets/color.jpg'
+import flipper from '../assets/flipper.png'
+import fountain from '../assets/foutain.png'
 
 export const data=[
     {
@@ -14,19 +15,19 @@ export const data=[
         id:2,
         name:"Calculator",
         image:calculator,
-        live:"",
+        live:"https://operator-mode.netlify.app",
     },
     {
         id:3,
         name:"Color Flipper",
-        image:color,
-        live:"",
+        image:flipper,
+        live:"https://gencolor.netlify.app",
     },
     {
         id:4,
         name:"React app",
-        image:WorkIm,
-        live:"",
+        image:fountain,
+        live:"https://fountainministry.netlify.app",
     },
     {
         id:5,

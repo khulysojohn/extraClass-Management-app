@@ -70,7 +70,7 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a  href='https://github.com/khulyso-dev'>
+              <a  href='https://github.com/khulysojohn'>
                 <FaGithub size={40} color='white'/>
               </a>
             </li>
