@@ -1,7 +1,7 @@
 import React, {useRef} from 'react';
 import emailjs from '@emailjs/browser';
-import { FaLinkedin, FaGithub, FaTelegram} from 'react-icons/fa';
-import icon from '../assets/logo-white.png';
+import { FaLinkedin, FaGithub, FaDev, FaWhatsapp} from 'react-icons/fa';
+
 
 
 const Contact = () => {
@@ -65,8 +65,8 @@ const Contact = () => {
         <div className='lg:hidden'>
           <ul className='flex'>
             <li>
-              <a href='t.me/khuljohn'>
-                <FaTelegram size={40} color='white'/>
+              <a href='https://dev.to/khulysojohn'>
+                <FaDev size={40} color='white'/>
               </a>
             </li>
             <li>
@@ -75,8 +75,8 @@ const Contact = () => {
               </a>
             </li>
             <li>
-              <a  href='https://twitter.com/Khulyso12'>
-                <img src={icon} alt='x' width={30} height={30}/>
+              <a  href='https://wa.me/27818854153'>
+                <FaWhatsapp size={40} color='white'/>
               </a>
             </li>
             <li>

@@ -1,8 +1,7 @@
 import React, {useState} from 'react'
-import {FaBars, FaGithub, FaTimes, FaTelegram, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaGithub, FaTimes, FaLinkedin, FaWhatsapp, FaDev} from 'react-icons/fa'
 import logo from '../assets/logo.png'
 import {Link} from 'react-scroll'
-import icon from '../assets/logo-white.png'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -86,26 +85,26 @@ const Navbar = () => {
       {/* Social icon */}
       <div className='lg:flex fixed flex-col top-[35%] left-0 hidden'>
         <ul>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
-            <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="https://t.me/khuljohn">
-              Telegram <FaTelegram size={30} color='white' />
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-black'>
+            <a className='flex justify-between items-center w-full text-white'
+            href="https://dev.to/khulysojohn">
+              Community <FaDev size={30} color='white' />
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800'>
-            <a className='flex justify-between items-center w-full text-[#0BDFAE]'
+            <a className='flex justify-between items-center w-full text-white'
             href="https://github.com/khulyso-dev">
               Github <FaGithub size={30} color='white' />
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-pink-600'>
-            <a className='flex justify-between items-center w-full text-[#0BDFAE]'
-            href="https://twitter.com/Khulyso12">
-              X <img src={icon} alt='x' height={30} width={30} color='white'/>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600'>
+            <a className='flex justify-between items-center w-full text-white'
+            href="https://wa.me/27818854153">
+              whatsapp <FaWhatsapp size={30} color='white'/>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-purple-800'>
-            <a className='flex justify-between items-center w-full text-[#0BDFAE]'
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a className='flex justify-between items-center w-full text-white'
             href="https://www.linkedin.com/in/khulyso/">
               Linkedin <FaLinkedin size={30} color='white'/>
             </a>
